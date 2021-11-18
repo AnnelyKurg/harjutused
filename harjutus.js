@@ -1,31 +1,4 @@
-//tund 11.11
 
-/*function createNewPerson(name) {
-    const obj = {};
-    obj.name = name;
-    obj.greeting = function() {
-        alert('Hi! I\'m ' + obj.name + '.');
-    };
-    return obj;
-}*/
-/* function Person(name) {
-    this.name = name;
-    this.greeting = function() {
-        alert('Hi! I\'m ' + this.name + '.');
-    };
-}
-/*const salva = createNewPerson('Salva');
-salva.name;
-salva.greeting(); */
-
-
-/*let person1 = new Person('Bob');
-let person2 = new Person('Sarah');
-
-person1.name
-person1.greeting()
-person2.name
-person2.greeting();*/
 
 //tund 18.11
 
@@ -56,12 +29,13 @@ triangle.calcPerimeter()*/
 
 
 // object creation
-let square = new Shape("square", 4, 5)
+let square = new Square(5)
 console.log(square)
 let triangle = new Shape("triangle", 3, 3)
 console.log(triangle)
 // object method calling
 square.calcPerimeter()
+square.calcArea()
 triangle.calcPerimeter()
 
 
